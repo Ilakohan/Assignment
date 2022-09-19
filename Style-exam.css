@@ -1,27 +1,44 @@
 .header {
-  height: 55px;
+  height: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
-
-.body {
-  margin: 0;
-}
-
 .left-section {
-  background-color: blue;
-  width: 150px;
+  width: 20%;
+  color: #825b09;
+  background-color: #fff7e8;
+  font-size: 3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
 }
+
 .middle-section {
-  background-color: pink;
   flex: 1;
-  margin-left: 70px;
-  margin-right: 30px;
-  max-width: 500px;
+  width: 60%;
+  margin-left: 10rem;
+  position: relative;
+  font-size: 3rem;
+}
+
+a:link {
+  background-color: #fff7e8;
+}
+
+a:visited {
+  background-color: #4b8178;
+}
+
+a:hover {
+  background-color: #5f5b57;
 }
 
 .right-section {
-  background-color: blue;
-  width: 200px;
+  font-size: 30px;
+  position: absolute;
+  right: 0;
 }
